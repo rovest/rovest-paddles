@@ -16,7 +16,7 @@ export default function MapTestPage() {
   return (
   
     <Container type="main" verticalAlign="middle" className="justify-center">
-          <MapComponent />
+          <MapComponent lat={36} long={128} />
             
     </Container>
   )
